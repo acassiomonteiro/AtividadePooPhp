@@ -17,7 +17,7 @@ Class Passeio {
     var $velocMaxima;
     var $tetosolar;
     var $som;
-    var $numPortas
+    var $numPortas;
 
     function Detalhe(){
     }
@@ -47,7 +47,7 @@ Class Locadora {
     function Desalugar(){
     }
 
-    
+
     function Reservar(){
     }
 
