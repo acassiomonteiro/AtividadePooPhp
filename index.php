@@ -1,67 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>AtividadePooPhp</title>
+
+</head>
+<body>
+
 <?php
 
-Class Veiculo {
+    require_once 'Veiculo.php';
+    $c1 = new veiculo;
+    $c1->marca = "bmw";
+    $c1->modelo = "i7";
+    $c1->ano = "2019";
+    $c1->valorDiaria = "R$220,00"
+    $c1->alugado = "sim"
 
-    var $marca;
-    var $modelo;
-    var $ano;
-    var $cor;
-    var $valorDiaria;
-    var $alugado;
-    var $_ tipo (Passeio, Utilitario)
+    var_dump($c1);
 
-}
+?>
 
-Class Passeio {
-
-    var $velocMaxima;
-    var $tetosolar;
-    var $som;
-    var $numPortas;
-
-    function Detalhe(){
-    }
-
-}
-
-Class Utilitario {
-    var $carga;
-    var $categoria;
-    var $quantEixos;
-
-    function Detalhe(){
-     }
-
-}
-
-Class Locadora {
-    var $codReserva;
-    var $veiculo;
-    var $locatario;
-    var $data;
-    var $numdiarias;
-
-    function Alugar(){
-    }
-
-    function Desalugar(){
-    }
-
-
-    function Reservar(){
-    }
-
-    function ListarCarros(){
-    }
-
-}
-
-Class Cliente {
-    var $nome;
-    var $cidade;
-    var $idade;
-
-    function DetalheCliente(){
-    }
-
-}
+</body>
+</html>
