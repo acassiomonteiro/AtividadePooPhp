@@ -10,6 +10,34 @@
 </head>
 <body>
 
+<form action="index.php" method="post">
+    <div>
+        <label for="nome">Marca:</label>
+        <input type="text" id="marca" />
+    </div>
+    <div>
+        <label for="modelo">Modelo:</label>
+        <input type="modelo" id="modelo" />
+    </div>
+    <div>
+        <label for="ano">Ano:</label>
+        <input type="ano" id="ano" />
+    </div>
+    <div>
+        <label for="valorDiaria">Valor da diaria:</label>
+        <input type="valorDiaria" id="valorDiaria" />
+    </div>
+    <div>
+        <label for="valorDiaria">Valor da diaria:</label>
+        <input type="valorDiaria" id="valorDiaria" />
+    </div>
+    <div>
+        <label for="alugado">Alugado?:</label>
+        <input type="alugado" id="alugado" />
+    </div>
+
+</form>
+
 <?php
 
     require_once 'Veiculo.php';
